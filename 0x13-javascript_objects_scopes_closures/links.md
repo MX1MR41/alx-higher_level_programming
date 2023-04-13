@@ -1,6 +1,6 @@
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript
-- per.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
