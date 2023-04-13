@@ -1,10 +1,13 @@
 #!/usr/bin/node
-/*
-The first argument is the file path of the first source file
-The second argument is the file path of the second source file
-The third argument is the file path of the destination
-*/
-const files = require('files');
-const file1 = files.readFileSync(process.argv[2], 'utf8');
-const file2 = files.readFileSync(process.argv[3], 'utf8');
-files.writeFileSync(process.argv[4], file1 + file2);
+
+const { dict } = require('./101-data');
+
+const convertedArr = Object.entries(dict);
+
+const newObj = {};
+
+convertedArr.forEach(element => {
+  newObj[element[1]] ? newObj[element[1]].push(element[0]) : newObj[element[1]] = [element[0]];
+});
+
+console.log(newObj);
